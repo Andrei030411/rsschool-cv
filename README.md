@@ -1,1 +1,1 @@
-GitHub: https://github.com/Andrei030411/rsschool-cv.git
+https://github.com/Andrei030411/rsschool-cv/cv
