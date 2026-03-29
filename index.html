@@ -1,10 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
+    <div class="container">
+        <header>
+            <h1>Andrew</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english-level">English Level</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Email: <a href="mailto:akurbatski03@gmail.com">akurbatski03@gmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/Andrei030411">github.com/Andrei030411</a></li>
+                    <li>Discord: andrei_82801</li>
+                </ul>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am Andrew, a junior frontend developer. I enjoy exploring new technologies and creating clear and neat solutions. I learn by practicing, experimenting with code, and completing tasks to the end.  
+                    My strengths are attention to detail, discipline, and a desire for continuous development. I am ready to invest effort, learn new things, and gradually turn my knowledge into real skills.
+                </p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: HTML, CSS, JavaScript</li>
+                    <li>Version Control Systems: Git, GitHub, GitLab</li>
+                    <li>Development Tools: PyCharm CE, Figma, VS Code</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>Code Examples</h2>
+                <h3>HTML</h3>
+                <pre><code>&lt;div class="profile-card"&gt;
+    &lt;h2&gt;Andrew&lt;/h2&gt;
+    &lt;p&gt;Frontend Developer&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+                <h3>CSS</h3>
+                <pre><code>.profile-card {
+    width: 200px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.profile-card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+</code></pre>
+                <h3>JavaScript</h3>
+                <pre><code>const button = document.querySelector('.profile-card');
+button?.addEventListener('click', () =&gt; {
+    alert('Hi, Andrew!');
+});
+</code></pre>
+            </section>
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <p>Currently, I do not have commercial work experience. All projects were completed for learning and practice. I actively develop frontend skills through study and personal projects.</p>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>HTML Academy: Frontend basic and advanced courses</li>
+                    <li>Online Courses: Git and GitHub, GitLab</li>
+                </ul>
+            </section>
+            <section id="english-level">
+                <h2>English Level</h2>
+                <p>B1 - Intermediate</p>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <a href="https://github.com/Andrei030411">GitHub</a> | 2026 &copy; Andrei030411
+            </p>
+            <img src="images/rs-school-logo.svg" alt="RSSchool logo">
+            <a href="https://rs.school/courses/javascript-preschool-ru">RS School</a>
+        </footer>
+    </div>
 </body>
 </html>

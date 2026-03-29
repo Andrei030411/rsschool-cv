@@ -1,35 +1,35 @@
-# Андрей
+# Andrew
 
-## Контактная информация
-- email: akurbatski03@gmail.com
+## Contact Information
+- Email: akurbatski03@gmail.com
 - GitHub: [https://github.com/Andrei030411](https://github.com/Andrei030411)
 - Discord: andrei_82801
 
-## Короткое самопредставление
+## Short Introduction
 
-Я Андрей, начинающий фронтенд-разработчик. Мне нравится разбираться в новых технологиях и создавать понятные и аккуратные решения. Учусь на практике, экспериментирую с кодом и довожу задачи до результата.  
-Мои сильные стороны - внимательность к деталям, дисциплина и желание постоянно развиваться. Я готов вкладываться, учиться новому и постепенно превращать свои знания в реальные навыки.
+I am Andrew, a junior frontend developer. I enjoy exploring new technologies and creating clear and neat solutions. I learn by practicing, experimenting with code, and completing tasks to the end.  
+My strengths are attention to detail, discipline, and a desire for continuous development. I am ready to invest effort, learn new things, and gradually turn my knowledge into real skills.
 
-## Навыки
+## Skills
 
-- **Языки программирования:** HTML, CSS, JavaScript
-- **Системы контроля версий:** Git, GitHub, GitLab  
-- **Инструменты разработки:** PyCharm CE, Figma
+- **Programming Languages:** HTML, CSS, JavaScript
+- **Version Control Systems:** Git, GitHub, GitLab  
+- **Development Tools:** PyCharm CE, Figma, VS Code
 
-## Примеры кода
+## Code Examples
 
 ### HTML
 ```html
-<!-- Блок профиля -->
+<!-- Profile block -->
 <div class="profile-card">
-  <h2>Андрей</h2>
+  <h2>Andrew</h2>
   <p>Frontend Developer</p>
 </div>
 ```
 
 ### CSS
 ```css
-/* Стили для карточки профиля */
+/* Styles for profile card */
 .profile-card {
   width: 200px;
   padding: 16px;
@@ -47,22 +47,22 @@
 
 ### JS
 ```js
-// Функция интерактивности
+// Interactivity function
 const button = document.querySelector('.profile-card');
 button?.addEventListener('click', () => {
-  alert('Привет, Андрей!');
+  alert('Hi, Andrew!');
 });
 ```
 
-## Опыт работы
+## Work Experience
 
-На данный момент коммерческого опыта работы нет. Все проекты выполнялись для обучения и практики. Активно развиваю навыки фронтенд-разработки через учебные и личные проекты.
+Currently, I do not have commercial work experience. All projects were completed for learning and practice. I actively develop frontend skills through study and personal projects.
 
-## Образование
+## Education
 
-- HTML Academy: Front-end базовый и продвинутый курсы
-- Онлайн-курсы по Git & GitHub
+- HTML Academy: Frontend basic and advanced courses
+- Online courses on Git and GitHub, GitLab
 
-## Уровень владения английским языком
+## English Level
 
-B1
+B1 - Intermediate
